@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:0fa42253e3fc4bca7e3795a522764aaef764af6b4ef412fafcee97bade0ef9df",
+      "size": 2086,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 16.04.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "0.9.4.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "56fca18baee3ff65f4e6ca1491b515f46bcb61c3d184bc68c77c1b06e2e32cfb",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.2.1-26-g3cbf7b7\",\"changed_files\":[],\"source_modified_time\":1625610246,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"kubernetes-cli\",\"version\":\"1.21.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 16.04.7\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2021-07-07",
+    "org.opencontainers.image.description": "Tool that can switch between kubectl contexts easily and create aliases",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/kubectx",
+    "org.opencontainers.image.license": "Apache-2.0",
+    "org.opencontainers.image.ref.name": "0.9.4",
+    "org.opencontainers.image.revision": "0eb36e4a07477cb656ae0f90e3399e4c67fe14bd",
+    "org.opencontainers.image.source": "https://github.com/Homebrew/linuxbrew-core/blob/0eb36e4a07477cb656ae0f90e3399e4c67fe14bd/Formula/kubectx.rb",
+    "org.opencontainers.image.title": "kubectx",
+    "org.opencontainers.image.url": "https://github.com/ahmetb/kubectx",
+    "org.opencontainers.image.vendor": "linuxbrew",
+    "org.opencontainers.image.version": "0.9.4"
+  }
+}
